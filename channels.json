@@ -5,11 +5,11 @@
     "channelNumber": 7,
     "category": "Nacional",
     "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/TVN.cl.png",
-    "streamUrl": "https://mdstrm.com/live-stream-playlist/5a5619d2b451332c5e5a25b1.m3u8",
+    "streamUrl": "https://mdstrm.com/live-stream-playlist-v/555c9a91eb4886825b07ee7b.m3u8",
     "backupStreamUrls": [
       "https://tvn-cl-cached.opencdn.cl/live/eds/tvn/hls/tvn.m3u8"
     ],
-    "description": "Televisión Nacional de Chile - Señal Abierta Nacional"
+    "description": "Televisión Nacional de Chile - Señal Abierta Principal"
   },
   {
     "id": "mega-cl",
@@ -17,11 +17,12 @@
     "channelNumber": 9,
     "category": "Nacional",
     "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/Mega.cl.png",
-    "streamUrl": "https://mdstrm.com/live-stream-playlist/602d3ee8b4bb68079b7617b8.m3u8",
+    "streamUrl": "https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8",
     "backupStreamUrls": [
-      "https://redirector.rudo.video/hls-video/1fe48c1a6ee928a6fdf9ff62c3e414c7ca0ce654/mega/mega.smil/playlist.m3u8"
+      "https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8",
+      "https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8"
     ],
-    "description": "Mega Chile - Cadena privada nacional de entretenimiento e información"
+    "description": "Mega - Cadena privada nacional de entretenimiento e información"
   },
   {
     "id": "chilevision-cl",
@@ -29,11 +30,11 @@
     "channelNumber": 11,
     "category": "Nacional",
     "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/Chilevision.cl.png",
-    "streamUrl": "https://redirector.rudo.video/hls-video/02e77b63f739660c6f272a837053e198aaec01b8/chv/chv.smil/playlist.m3u8",
+    "streamUrl": "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/chv/chv.smil/playlist.m3u8",
     "backupStreamUrls": [
-      "https://chv-cl-cached.opencdn.cl/live/eds/chv/hls/chv.m3u8"
+      "https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u8"
     ],
-    "description": "Chilevisión CHV - Transmisión en vivo"
+    "description": "Chilevisión (CHV) - Señal abierta nacional en vivo"
   },
   {
     "id": "canal13-cl",
@@ -41,11 +42,45 @@
     "channelNumber": 13,
     "category": "Nacional",
     "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/Canal13.cl.png",
-    "streamUrl": "https://redirector.rudo.video/hls-video/7c7d7593c662ae1ce1e1d03425cbfa08b9826d9e/c13/c13.smil/playlist.m3u8",
+    "streamUrl": "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8",
     "backupStreamUrls": [
-      "https://live-13.cdnmedios.cl/live/13/playlist.m3u8"
+      "https://jireh-9-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/13live/13live.smil/13live/livestream1/chunks.m3u8"
     ],
-    "description": "Canal 13 - En vivo desde Santiago de Chile"
+    "description": "Canal 13 - Transmisión en vivo desde Santiago de Chile"
+  },
+  {
+    "id": "ucvtv-cl",
+    "name": "UCV TV",
+    "channelNumber": 5,
+    "category": "Nacional",
+    "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/UCVTV.cl.png",
+    "streamUrl": "https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8",
+    "backupStreamUrls": [
+      "https://pantera1-100gb-cl-movistar.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8"
+    ],
+    "description": "UCV Televisión - Primera cadena universitaria de Chile"
+  },
+  {
+    "id": "u-de-chile-tv",
+    "name": "U de Chile TV",
+    "channelNumber": 112,
+    "category": "Nacional",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/UChile_TV_logo_2020.png/320px-UChile_TV_logo_2020.png",
+    "streamUrl": "https://unlimited2-cl-isp.dps.live/uchiletv/uchiletv.smil/playlist.m3u8",
+    "backupStreamUrls": [
+      "https://pantera1-100gb-cl-movistar.dps.live/uchiletv/uchiletv.smil/playlist.m3u8"
+    ],
+    "description": "Universidad de Chile Televisión - Canal cultural y científico"
+  },
+  {
+    "id": "ntv-cl",
+    "name": "NTV",
+    "channelNumber": 72,
+    "category": "Nacional",
+    "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/NTV.cl.png",
+    "streamUrl": "https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8",
+    "backupStreamUrls": [],
+    "description": "NTV Chile - Señal cultural y familiar pública de TVN"
   },
   {
     "id": "24horas-cl",
@@ -53,11 +88,23 @@
     "channelNumber": 24,
     "category": "Noticias",
     "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/24Horas.cl.png",
-    "streamUrl": "https://mdstrm.com/live-stream-playlist/5346e6a17b2b88f34300000a.m3u8",
+    "streamUrl": "https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8",
     "backupStreamUrls": [
       "https://tvn-cl-cached.opencdn.cl/live/eds/canal24horas/hls/canal24horas.m3u8"
     ],
-    "description": "Canal 24 Horas - Noticias de Chile y el mundo las 24 horas"
+    "description": "Canal 24 Horas - Noticias continuas de TVN"
+  },
+  {
+    "id": "meganoticias-cl",
+    "name": "Meganoticias",
+    "channelNumber": 25,
+    "category": "Noticias",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/MegaNoticias2026.png/330px-MegaNoticias2026.png",
+    "streamUrl": "https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8",
+    "backupStreamUrls": [
+      "https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8"
+    ],
+    "description": "Meganoticias - Información y actualidad 24/7"
   },
   {
     "id": "t13envivo-cl",
@@ -65,54 +112,140 @@
     "channelNumber": 133,
     "category": "Noticias",
     "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/T13EnVivo.cl.png",
-    "streamUrl": "https://redirector.rudo.video/hls-video/60dfd075ebf1159ea3a479ffce3d5a49f7e5d886/t13/t13.smil/playlist.m3u8",
+    "streamUrl": "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8",
     "backupStreamUrls": [
       "https://live-13.cdnmedios.cl/live/t13/playlist.m3u8"
     ],
-    "description": "Tele13 En Vivo - Noticias y contingencia nacional"
+    "description": "T13 En Vivo - Noticias de Canal 13"
+  },
+  {
+    "id": "chvnoticias-cl",
+    "name": "CHV Noticias",
+    "channelNumber": 111,
+    "category": "Noticias",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/CHV_Noticias_2018.png",
+    "streamUrl": "https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u8",
+    "backupStreamUrls": [],
+    "description": "Chilevisión Noticias - Cobertura periodística en directo"
   },
   {
     "id": "biobiotv-cl",
     "name": "BioBio TV",
     "channelNumber": 26,
-    "category": "Noticias",
+    "category": "Radio y TV",
     "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/BioBioChileTV.cl.png",
-    "streamUrl": "https://unlimited6-cl.dps.live/bbtv/bbtv.smil/playlist.m3u8",
+    "streamUrl": "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8",
     "backupStreamUrls": [
-      "https://rudo.video/live/bbtv.m3u8"
+      "https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8"
     ],
-    "description": "Bío-Bío TV - El canal de televisión de Radio Bío-Bío"
+    "description": "Bío-Bío TV - Canal de televisión informativo de Radio Bío-Bío"
   },
   {
-    "id": "ucvtv-cl",
-    "name": "UCV TV",
-    "channelNumber": 5,
-    "category": "Cultural",
-    "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/UCVTV.cl.png",
-    "streamUrl": "https://unlimited6-cl.dps.live/ucvtv/ucvtv.smil/playlist.m3u8",
+    "id": "radio-adn",
+    "name": "Radio ADN TV",
+    "channelNumber": 91,
+    "category": "Radio y TV",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Logo_ADN_Radio_Chile.png/320px-Logo_ADN_Radio_Chile.png",
+    "streamUrl": "https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8",
+    "backupStreamUrls": [],
+    "description": "Radio ADN - Actualidad, deportes y noticias en vivo"
+  },
+  {
+    "id": "cooperativa",
+    "name": "Radio Cooperativa TV",
+    "channelNumber": 93,
+    "category": "Radio y TV",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Radio_Cooperativa_Logo.svg/320px-Radio_Cooperativa_Logo.svg.png",
+    "streamUrl": "https://unlimited1-cl-isp.dps.live/coopetv/coopetv.smil/playlist.m3u8",
+    "backupStreamUrls": [],
+    "description": "Radio Cooperativa - Transmisión en directo del estudio"
+  },
+  {
+    "id": "tele13radio",
+    "name": "Tele13 Radio",
+    "channelNumber": 103,
+    "category": "Radio y TV",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Logotipo_de_Teletrece.svg/320px-Logotipo_de_Teletrece.svg.png",
+    "streamUrl": "https://mdstrm.com/audio/5c915613519bce27671c4caa/live.m3u8",
     "backupStreamUrls": [
-      "https://mdstrm.com/live-stream-playlist/5c8aa848039d673b9e4a30ff.m3u8"
+      "https://cl-a3-p-e-av11-audio.cdn.mdstrm.com/live-audio-aw/5c915613519bce27671c4caa/playlist.m3u8"
     ],
-    "description": "UCV Televisión - Universidad Católica de Valparaíso"
+    "description": "Tele13 Radio - Información y conversación"
   },
   {
-    "id": "ntv-cl",
-    "name": "NTV",
-    "channelNumber": 72,
-    "category": "Infantil",
-    "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/NTV.cl.png",
-    "streamUrl": "https://mdstrm.com/live-stream-playlist/611a842f1cf5b80824b22596.m3u8",
+    "id": "antofagasta-tv",
+    "name": "Antofagasta TV",
+    "channelNumber": 30,
+    "category": "Regional",
+    "logoUrl": "https://graph.facebook.com/AntofagastaTelevision/picture?width=800&height=800",
+    "streamUrl": "https://unlimited1-cl-isp.dps.live/atv/atv.smil/playlist.m3u8",
     "backupStreamUrls": [],
-    "description": "NTV Chile - Señal cultural y familiar pública de TVN"
+    "description": "Antofagasta TV - Canal regional del norte de Chile"
   },
   {
-    "id": "cdtv-cl",
-    "name": "CDTV Cámara",
-    "channelNumber": 99,
-    "category": "Institucional",
-    "logoUrl": "https://raw.githubusercontent.com/iptv-org/api/master/data/logos/CamaradeDiputadosChile.cl.png",
-    "streamUrl": "https://unlimited6-cl.dps.live/cdtv/cdtv.smil/playlist.m3u8",
+    "id": "tvu-cl",
+    "name": "TVU Concepción",
+    "channelNumber": 31,
+    "category": "Regional",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Logo_TVU_2016.png/320px-Logo_TVU_2016.png",
+    "streamUrl": "https://unlimited6-cl.dps.live/tvu/tvu.smil/playlist.m3u8",
+    "backupStreamUrls": [
+      "https://pantera1-100gb-cl-movistar.dps.live/tvu/tvu.smil/playlist.m3u8"
+    ],
+    "description": "Televisión Universidad de Concepción - Región del Biobío"
+  },
+  {
+    "id": "canal9-cl",
+    "name": "Canal 9 Bío-Bío",
+    "channelNumber": 32,
+    "category": "Regional",
+    "logoUrl": "https://graph.facebook.com/BioBioTV/picture?width=800&height=800",
+    "streamUrl": "https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8",
+    "backupStreamUrls": [
+      "https://unlimited1-cl-isp.dps.live/c9/c9.smil/playlist.m3u8"
+    ],
+    "description": "Canal 9 Bío-Bío Televisión - Concepción y Región del Biobío"
+  },
+  {
+    "id": "tvr-cl",
+    "name": "TVR Regional",
+    "channelNumber": 33,
+    "category": "Regional",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Logo_TVR.png/320px-Logo_TVR.png",
+    "streamUrl": "https://redirector.dps.live/hls/tvr/playlist.m3u8",
+    "backupStreamUrls": [
+      "https://unlimited1-cl-isp.dps.live/tvr/tvr.smil/playlist.m3u8"
+    ],
+    "description": "TVR - Red Televisiva Regional de Chile"
+  },
+  {
+    "id": "teleangol-cl",
+    "name": "TeleAngol",
+    "channelNumber": 34,
+    "category": "Regional",
+    "logoUrl": "https://graph.facebook.com/teleangol/picture?width=800&height=800",
+    "streamUrl": "https://unlimited1-cl-isp.dps.live/teleangol/teleangol.smil/playlist.m3u8",
     "backupStreamUrls": [],
-    "description": "Canal de la Cámara de Diputadas y Diputados de Chile"
+    "description": "TeleAngol - Televisión comunitaria de Malleco"
+  },
+  {
+    "id": "vtv-quillota",
+    "name": "VTV Quillota",
+    "channelNumber": 35,
+    "category": "Regional",
+    "logoUrl": "https://graph.facebook.com/vtvquillota/picture?width=800&height=800",
+    "streamUrl": "https://pantera1-100gb-cl-movistar.dps.live/vtvquillota/vtvquillota.smil/playlist.m3u8",
+    "backupStreamUrls": [],
+    "description": "VTV Televisión - Quillota y Valle de Aconcagua"
+  },
+  {
+    "id": "campustv-utalca",
+    "name": "Campus TV UTalca",
+    "channelNumber": 36,
+    "category": "Regional",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Campus_TV_Logo.png/320px-Campus_TV_Logo.png",
+    "streamUrl": "https://unlimited1-cl-isp.dps.live/campustv/campustv.smil/playlist.m3u8",
+    "backupStreamUrls": [],
+    "description": "Campus TV - Universidad de Talca, Región del Maule"
   }
 ]
